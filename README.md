@@ -26,11 +26,6 @@ A feature-rich YouTube clone built using modern web development technologies lik
 - **Channel Management**
   - Create, update, and delete your own channels.
   - Manage videos within channels.
-- **Responsive Design**
-  - Fully responsive across mobile, tablet, and desktop devices.
-
-
-
 ## Technologies Used
 
 - **Frontend**: React, React Router, Axios, TailwindCSS
@@ -44,31 +39,30 @@ A feature-rich YouTube clone built using modern web development technologies lik
 
 
 1. Navigate to the project directory:
-   ```bash
-   cd youtube-clone
-   ```
+   bash
+   cd youtube clone
+   
 2. Install dependencies for the backend:
-   ```bash
+   bash
    cd server
    npm install
-   ```
+ 
 3. Install dependencies for the frontend:
-   ```bash
+   bash
    cd ../client
    npm install
-   ```
+
 4. Run the backend:
-   ```bash
+   bash
    cd server
    npm start
-   ```
+ 
 5. Run the frontend:
-   ```bash
+   bash
    cd ../client
    npm start
-   ```
-6. Open the app in your browser:
-   ```
+
+6. Open the app in your browser
    http://localhost:4000
 
 
@@ -85,7 +79,7 @@ A feature-rich YouTube clone built using modern web development technologies lik
 ## Sample Data
 
 **Sample Channel Data**:
-```json
+json
 {
   "channelId": "channel01",
   "channelName": "Code with John",
@@ -96,16 +90,3 @@ A feature-rich YouTube clone built using modern web development technologies lik
 }
 
 
-## API Endpoints
-
-### User Authentication
-- `POST /auth/signUp` - Register a new user.
-- `POST /auth/login` - Login user and return JWT.
-- `POST /auth/logout` - Logout user and clear JWT.
-
-### Video Management
-- `POST /api/video` - Upload a video.
-- `GET /api/allVideo` - Get all videos.
-- `GET /api/getVideoById/:id` - Get a video by Id.
-- `GET /api/:userId/channel` - Get all videos uploaded by an user.
-- `GET /api/videos/search` - Search a video.
