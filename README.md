@@ -74,17 +74,3 @@ A feature-rich YouTube clone built using modern web development technologies lik
 
 
 
-## Sample Data
-
-**Sample Channel Data**:
-json
-{
-  "channelId": "channel01",
-  "channelName": "Code with John",
-  "owner": "user01",
-  "description": "Coding tutorials and tech reviews by John Doe.",
-  "subscribers": 5200,
-  "videos": ["video01", "video02"]
-}
-
-
