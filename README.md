@@ -64,13 +64,4 @@ A feature-rich YouTube clone built using modern web development technologies lik
 
 
 
-## Usage
-
-- Sign up or log in to your account.
-- Search for videos or filter them by categories.
-- Watch videos, like/dislike them, and leave comments.
-- Create your own channel and upload videos.
-- Edit or delete videos from your channel.
-
-
 
