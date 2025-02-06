@@ -62,8 +62,6 @@ A feature-rich YouTube clone built using modern web development technologies lik
    cd ../client
    npm start
 
-6. Open the app in your browser
-   http://localhost:4000
 
 
 ## Usage
